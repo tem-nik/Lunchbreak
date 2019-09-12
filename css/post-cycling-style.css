@@ -1,0 +1,133 @@
+/* Article Post */
+
+.article__post {
+  padding: 4rem 2rem;
+}
+
+.article__title {
+  margin: 5rem 0;
+}
+
+.article__author {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.image__wrapper--article {
+  margin-bottom: 4rem;
+  height: 50rem;
+}
+
+.article__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article__content {
+line-height: 1.7;
+font-size: 1.6rem;
+}
+
+.quote__wrapper {
+  margin : 4rem auto 0 auto;  
+  padding : 2rem; 
+  position : relative; 
+  width : 40rem; 
+} 
+
+.quote__text--body {
+  margin : 0; 
+  padding : 0; 
+}
+
+.quote--body {
+  margin : 0; 
+  padding-top : 15rem; 
+  position : relative; 
+} 
+
+.quote--body:after {
+    background: none repeat scroll 0 0 rgba(185, 255, 21, 0.5);
+    border-radius: 50% 50% 50% 50%;
+    color: rgb(88, 88, 88);
+    content: "❞";
+    font-family: 'Poppins', sans-serif;
+    font-size: 7rem;
+    height: 13rem;
+    left: 50%;
+    line-height: 13rem;
+    margin-left: -6.5rem;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0.1rem 0.1rem rgba(1, 1, 1, 0.4);
+    top: 0;
+    width: 13rem;
+}
+.quote--body::before {
+    border-left: 5px solid rgba(185, 255, 21, 0.3);
+    border-radius: 50% 50% 50% 50%;
+    content: "";
+    height: 50rem;
+    left: -5rem;
+    position: absolute;
+    top: 0;
+    width: 50rem;
+    z-index: -1;
+}
+
+.quote__text--body {
+  background : none repeat scroll 0 0 rgba(255, 255, 255, 0.5); 
+  box-shadow : 0 -6px 0 rgba(185, 255, 21, 0.3); 
+  color : rgb(88, 88, 88); 
+  display : inline; 
+  font-family : 'Poppins', sans-serif; 
+  font-weight: 300;
+  font-size : 2.8rem; 
+  line-height : 4.6rem; 
+  text-shadow : 0 0.1rem 0.1rem rgba(1, 1, 1, 0.2);  
+} 
+
+.quote__attribution {
+  text-align : right; 
+} 
+
+ .quote__author {
+  color : rgb(88, 88, 88); 
+  font-size : 1.8rem; 
+  font-family: 'Abril Fatface', cursive;
+  padding: 1rem 3rem 3rem 0; 
+  letter-spacing: 0.1rem;
+}  
+
+.aside {
+  max-height: 80rem;
+}
+
+.share__text {
+  padding: 2rem 0;
+  font-weight: bold;
+}
+
+.share__icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.share__icon {
+  margin-right: 2rem;
+  color: #ffc815;
+  text-shadow: 0.5px 1px 1px rgba(0,0,0,0.9);
+}
+
+.share__icon:hover {
+  color: var(--color-secondary);
+  transform:translateY(-0.2rem);
+  transition: transform 0.2s;
+}
+
+.share__icon:active {
+  transform:translateY(0);
+  transition: transform 0.2s;
+}
